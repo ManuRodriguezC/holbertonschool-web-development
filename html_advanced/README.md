@@ -15,27 +15,27 @@ However some of them allow to maintain the structure of the code and point out s
 * HTML tags:
     <div>
     
-    * <html>
-    * <link>
-    * <head>
-    * <body>
-    * <main>
-    * <section>
-    * <title>
-    * <header>
-    * <footer>
-    * <div>
-    * <a>
-    * <img>
-    * <article>
-    * <span>
-    * <aside>
-    * <details>
-    * <selection>
-    * <nav>
-    * <h1> <h2> <h3> <h4>
-    * <li>
-    * <ul>
+    * `<html>`
+    * `<link>`
+    * `<head>`
+    * `<body>`
+    * `<main>`
+    * `<section>`
+    * `<title>`
+    * `<header>`
+    * `<footer>`
+    * `<div>`
+    * `<a>`
+    * `<img>`
+    * `<article>`
+    * `<span>`
+    * `<aside>`
+    * `<details>`
+    * `<selection>`
+    * `<nav>`
+    * `<h1> <h2> <h3> <h4>`
+    * `<li>`
+    * `<ul>`
     * and more tags
     
     </div>
