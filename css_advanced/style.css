@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,700;0,900;1,200&display=swap");
+
+html ,body {
+    width: 1440px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: fixed;
+    width: 1041px;
+    margin: 35.02px 171.59px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-titles {
+    width: 234px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-titles a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Source Sans 3';
+}
+
+.logo {
+    width: 172px;
+    height: 35px;
+}
+
+.top {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1093px;
+    background-image:
+        linear-gradient(to top, black, transparent),
+        url('images/Bitmap.png');
+}
+
+.top-up {
+    display: grid;
+    height: 220px;
+    margin-left: 380px;
+    padding-top: 213px;
+}
+
+.top-up h1 {
+    margin: 0px;
+    color: white;
+    font-size: 119px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bolder;
+    height: 140px;
+}
+
+.top-up p {
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 18px;
+    left: 50px;
+    width: 400px;
+    padding-left: 210px;
+    padding-top: 10px;
+}
+
+.top-up button {
+    width: 162px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #C271FF;
+    margin-left: 260px;
+    margin-top: 33px;
+    border: 0px;
+    box-shadow: 0px 0px 10px 3px black;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.top-med {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.top-med h2 {
+    font-family: 'Source San 3', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 100;
+}
+
+.pink {
+    color: #C271FF;
+}
+
+.pros {
+    display: flex;
+    flex-direction: row;
+    height: 237px;
+}
+
+.pros div {
+    margin: 50px 80px;
+}
+
+
+.pros div img {
+    border-radius: 50%;
+}
+
+.pros div h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.pros div p {
+    color: white;
+    text-align: center;
+
+}
+
+.quote {
+    background-color: #C271FF;
+    height: 392px;
+    width: 100%;
+}
+
+.testimonials {
+    position: relative;
+    width: 943px;
+    height: 160px;
+    left: 259px;
+    top: 108px;
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonials img {
+    border-radius: 50%;
+}
+
+.testimonials blockquote {
+    color: white;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 40px 40px 0px 40px;
+}
+
+.info {
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: 'Source San 3', sans-serif;
+    font-weight: 100 Italic;
+}
+
+.tutorials {
+    position: relative;
+    top: 60px;
+    height: 550px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorials h1 {
+    font-size: 32px;
+    font-family: 'Source San 3', sans-serif;
+    font-weight: 100;
+    top: 85px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cont-tuto {
+    width: 1228px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pink-2 {
+    color: #C271FF;
+    font-weight: 900;
+}
