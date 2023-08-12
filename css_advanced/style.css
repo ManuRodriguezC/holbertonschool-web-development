@@ -14,7 +14,7 @@ html ,body {
 }
 
 header {
-    position: fixed;
+    position:absolute;
     width: 1041px;
     margin: 35.02px 171.59px;
 }
@@ -79,11 +79,10 @@ header {
     font-family: var(--family1);
     font-weight: bold;
     margin: 0px;
-    font-size: 18px;
+    font-size: 15px;
     left: 50px;
     width: 400px;
     padding-left: 210px;
-    padding-top: 10px;
 }
 
 .top-up button {
