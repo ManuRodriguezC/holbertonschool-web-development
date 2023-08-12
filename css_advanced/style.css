@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,700;0,900;1,200&display=swap");
 
+:root {
+    --color1: #C271FF;
+    --family1: 'Source San 3', sans-serif;
+}
+
 html ,body {
     width: 1440px;
     height: auto;
     margin: 0px;
     padding: 0px;
+    margin: 0px auto;
 }
 
 header {
@@ -32,7 +38,7 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Source Sans 3';
+    font-family: var(--family1);
 }
 
 .logo {
@@ -43,11 +49,12 @@ header {
 .top {
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: hsla(0, 0%, 95%, 1.0);
     width: 100%;
     height: 1093px;
     background-image:
         linear-gradient(to top, black, transparent),
-        url('images/back.png');
+        url('images/background.png');
 }
 
 .top-up {
@@ -60,15 +67,16 @@ header {
 .top-up h1 {
     margin: 0px;
     color: white;
-    font-size: 119px;
-    font-family: 'Source Sans 3', sans-serif;
+    font-size: 106px;
+    font-family: var(--family1);
     font-weight: bolder;
     height: 140px;
+    width: 884px;
 }
 
 .top-up p {
     color: white;
-    font-family: 'Source Sans 3', sans-serif;
+    font-family: var(--family1);
     font-weight: bold;
     margin: 0px;
     font-size: 18px;
@@ -82,11 +90,12 @@ header {
     width: 162px;
     height: 44px;
     border-radius: 20px;
-    background-color: #C271FF;
+    background-color: var(--color1);
     margin-left: 260px;
     margin-top: 33px;
     border: 0px;
-    box-shadow: 0px 0px 10px 3px black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),
+                0 6px 20px 0 rgba(0,0,0,0.19);
     color: white;
     font-size: 12px;
     cursor: pointer;
@@ -101,14 +110,14 @@ header {
 }
 
 .top-med h2 {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 32px;
     color: white;
     font-weight: 100;
 }
 
 .pink {
-    color: #C271FF;
+    color: var(--color1);
 }
 
 .pros {
@@ -141,7 +150,7 @@ header {
 }
 
 .quote {
-    background-color: #C271FF;
+    background-color: var(--color1);
     height: 392px;
     width: 100%;
 }
@@ -177,7 +186,7 @@ header {
     color: white;
     margin-top: 10px;
     margin-left: 40px;
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-weight: 100 Italic;
 }
 
@@ -195,7 +204,7 @@ header {
 
 .tutorials h1 {
     font-size: 32px;
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-weight: 100;
     top: 85px;
     margin-top: 20px;
@@ -203,7 +212,7 @@ header {
 }
 
 .pink-2 {
-    color: #C271FF;
+    color: var(--color1);
     font-weight: 900;
 }
 
@@ -214,13 +223,50 @@ header {
     flex-direction: row;
 }
 
-.video {
+.video1 {
     width: 255px;
     height: 335px;
     margin: 0px 20px;
+    background-image: url("images/tutorial1.png");
+    background-repeat: no-repeat;
 }
+
+.video2 {
+    width: 255px;
+    height: 335px;
+    margin: 0px 20px;
+    background-image: url("images/tutorial2.png");
+    background-repeat: no-repeat;
+}
+
+.video3 {
+    width: 255px;
+    height: 335px;
+    margin: 0px 20px;
+    background-image: url("images/tutorial3.png");
+    background-repeat: no-repeat;
+}
+
+.video4 {
+    width: 255px;
+    height: 335px;
+    margin: 0px 20px;
+    background-image: url("images/tutorial4.png");
+    background-repeat: no-repeat;
+}
+
+.logo-video {
+    margin-top: 110px;
+}
+
+.video-img {
+    position: relative;
+    left: 95px;
+    top: 45px;
+}
+
 .cont-tuto div h2 {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 14px;
     font-weight: 900;
     margin-left: 12px;
@@ -229,7 +275,7 @@ header {
 .lorem {
     margin: 0px;
     margin-left: 12px;
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 12px;
     line-height: 1.9;
     color: #6f7071;
@@ -253,8 +299,8 @@ header {
     position: relative;
     height: 27px;
     width: 96px;
-    color: #C271FF;
-    font-family: 'Source San 3', sans-serif;
+    color: var(--color1);
+    font-family: var(--family1);
     font-weight: 500;
     font-size: 12px;
     top: -4px;
@@ -272,8 +318,8 @@ header {
 .time {
     position: relative;
     right: 50px;
-    color: #C271FF;
-    font-family: 'Source San 3', sans-serif;
+    color: var(--color1);
+    font-family: var(--family1);
     font-size: 14px;
     margin: 0px;
 }
@@ -291,14 +337,14 @@ header {
 .title-mermerships {
     position: relative;
     bottom: 60px;
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 32px;
     font-weight:100;
     color: white;
 }
 
 .mem-pick {
-    color: #C271FF;
+    color: var(--color1);
     font-weight: bold;
 }
 
@@ -326,14 +372,14 @@ header {
 }
 
 .members div h2 {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 20px;
     font-weight: 500;
     color: white;
 }
 
 .members div p {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 14px;
     font-weight: 300;
     text-align: center;
@@ -347,9 +393,9 @@ header {
     width: 162px;
     height: 44px;
     border-radius: 25px;
-    background-color: #C271FF;
+    background-color: var(--color1);
     color: white;
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 12px;
     font-weight: 500;
     position: relative;
@@ -367,7 +413,7 @@ header {
 }
 
 .title-faq {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--family1);
     font-size: 60px;
     font-weight: 100;
     margin: 0px;
@@ -393,14 +439,14 @@ header {
 }
 
 .faq-cont h2 {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .faq-cont p {
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 14px;
     font-weight: lighter;
     line-height: 1.8;
@@ -448,7 +494,7 @@ footer {
 
 .down-title {
     color: rgb(186, 183, 183);
-    font-family: 'Source San 3', sans-serif;
+    font-family: var(--family1);
     font-size: 12px;
     position: relative;
     top: 50px;
